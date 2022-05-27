@@ -1,0 +1,11 @@
+* {margin:0; padding:0;}
+body {font-size:1rem; font-family:sans-serif;}
+.content {width:72%; margin:0 auto;}
+
+h1,h2,h3,h4,h5,h6 {margin:50px 0 0 0;}
+
+tr:nth-child(1){font-weight:bold; color:rgba(255,255,255,1); background:rgba(42,42,72,1);}
+tr:nth-child(even) {/*color:rgba(255,255,255,1);*/ background:rgba(64,64,88,0.42);}
+tr:nth-child(odd) {background:;}
+td {width:auto; padding:10px;}
+.td-id{min-width:320px !important;}
